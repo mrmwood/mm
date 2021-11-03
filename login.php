@@ -95,12 +95,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <title>Login</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        body{ font: 14px sans-serif; }
+        body{ font: 14px sans-serif; min-height: 100vh; display: flex; justify-content: center; align-items: center;}
         .wrapper{ width: 360px; padding: 20px; }
     </style>
 </head>
 <body>
-    <div class="wrapper">
+    <div class="wrapper border rounded">
         <h2>Login</h2>
         <p>Please fill in your credentials to login.</p>
 

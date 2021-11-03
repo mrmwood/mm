@@ -9,7 +9,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     exit;
 }
 
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -208,7 +207,7 @@ body {
 					<a href="#" class="dropdown-item"><i class="fa fa-calendar-o"></i> Calendar</a></a>
 					<a href="#" class="dropdown-item"><i class="fa fa-sliders"></i> Settings</a></a>
 					<div class="dropdown-divider"></div>
-					<a href="#" class="dropdown-item"><i class="material-icons">&#xE8AC;</i> Logout</a></a>
+					<a href="logout.php" class="dropdown-item"><i class="material-icons">&#xE8AC;</i> Logout</a></a>
 				</div>
 			</div>
 		</div>
